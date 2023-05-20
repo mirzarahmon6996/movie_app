@@ -49,7 +49,6 @@ const Movie = () => {
           ))}
         </div>
       ) : (
-<<<<<<< HEAD
         <div className="loading">
           <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
             <circle
@@ -100,9 +99,6 @@ const Movie = () => {
             ></circle>
           </svg>
         </div>
-=======
-               <div className="loading"> <div className="loader"></div></div>
->>>>>>> parent of 6b5aae3 (added)
       )}
     </div>
   );
