@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard/MovieCard";
 
 const Movie = () => {
-
   const [movieList, setMovieList] = useState({
     isFetched: false,
     data: [],
@@ -49,7 +48,10 @@ const Movie = () => {
           ))}
         </div>
       ) : (
-               <div className="loading"> <div className="loader"></div></div>
+        <div className="loading">
+          {" "}
+          <div className="loader"></div>
+        </div>
       )}
     </div>
   );

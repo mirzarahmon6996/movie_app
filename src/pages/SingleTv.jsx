@@ -30,7 +30,7 @@ const SingleTv = () => {
           err: error,
         })
       );
-  }, []);
+  }, [id]);
 
   console.log(TvInfo);
   return (

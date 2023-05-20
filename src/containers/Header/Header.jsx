@@ -14,7 +14,7 @@ const Header = () => {
     } else {
       navigate(`/`);
     }
-  }, [searchValue]);
+  }, [searchValue, navigate]);
   const handleSearchChange = (e) => {
     setSearchValue(e.target.value);
   };

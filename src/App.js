@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, Movie, SearchList, SingleMovie, SingleTv, Tv } from "./pages";
 import Header from "./containers/Header";
+import Footer from "./containers/footer/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/tv/:id" element={<SingleTv />} />
             <Route path="/search/:searchQuery" element={<SearchList />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </div>
