@@ -30,7 +30,7 @@ const SingleMovie = () => {
           err: error,
         })
       );
-  }, [id]);
+  }, []);
 
   console.log(movieInfo);
   return (
