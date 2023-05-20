@@ -9,7 +9,7 @@ const Header = () => {
   const [searchValue, setSearchValue] = useState("");
   const navigate = useNavigate();
   useEffect(() => {
-    if (searchValue.length > 0) {
+    if (searchValue && searchValue.length > 0) {
       navigate(`/search/${searchValue}`);
     } else {
       navigate(`/`);
